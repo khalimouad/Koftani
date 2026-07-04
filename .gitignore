@@ -15,7 +15,8 @@
 # debug
 npm-debug.log*
 
-# env files
+# env files (.env.production stays out of git but IS uploaded to Vercel
+# deployments — see .vercelignore and README)
 .env
 .env.local
 .env.production

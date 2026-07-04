@@ -1,0 +1,10 @@
+# Upload filter for `vercel deploy`. Unlike .gitignore, this list does NOT
+# exclude .env.production — the deployment carries the runtime secrets that
+# are deliberately kept out of git. Prefer moving them to Vercel Project
+# Settings → Environment Variables when convenient.
+node_modules
+.next
+data
+.git
+.env
+.env.local
