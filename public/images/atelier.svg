@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640">
+  <defs>
+    <linearGradient id="at-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d1710"/>
+      <stop offset="100%" stop-color="#0d0a07"/>
+    </linearGradient>
+    <linearGradient id="at-au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9a7c40"/>
+      <stop offset="50%" stop-color="#e3c07f"/>
+      <stop offset="100%" stop-color="#9a7c40"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#at-bg)"/>
+  <!-- embroidery hoop -->
+  <circle cx="400" cy="300" r="190" fill="#14100a" stroke="url(#at-au)" stroke-width="3"/>
+  <circle cx="400" cy="300" r="172" fill="none" stroke="#c6a35a" stroke-opacity="0.4" stroke-width="1.4"/>
+  <!-- motif being embroidered -->
+  <g transform="translate(400,300)" stroke="url(#at-au)" fill="none" stroke-width="2">
+    <path d="M0 -110 L26 -36 L104 -34 L42 14 L64 88 L0 42 L-64 88 L-42 14 L-104 -34 L-26 -36 Z"/>
+    <circle r="26"/>
+    <circle r="8" fill="#e3c07f" stroke="none"/>
+    <path d="M0 -70 L0 -46 M49 -22 L28 -14 M30 56 L18 34 M-30 56 L-18 34 M-49 -22 L-28 -14" stroke-opacity="0.7" stroke-width="1.4"/>
+  </g>
+  <!-- needle + thread -->
+  <path d="M545 155 L610 90" stroke="#e3c07f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="608" cy="92" r="3.4" fill="none" stroke="#e3c07f" stroke-width="1.6"/>
+  <path d="M604 96 C560 190 470 180 452 236" fill="none" stroke="#e3c07f" stroke-opacity="0.75" stroke-width="1.6" stroke-dasharray="5 6"/>
+  <!-- thread spools -->
+  <g transform="translate(130,506)">
+    <rect x="-26" y="-42" width="52" height="84" rx="7" fill="#2a1f14" stroke="#c6a35a" stroke-opacity="0.6" stroke-width="1.6"/>
+    <path d="M-26 -22 L26 -22 M-26 -10 L26 -10 M-26 2 L26 2 M-26 14 L26 14 M-26 26 L26 26" stroke="#e3c07f" stroke-opacity="0.8" stroke-width="2.4"/>
+  </g>
+  <g transform="translate(212,516)">
+    <rect x="-22" y="-34" width="44" height="68" rx="6" fill="#2a1f14" stroke="#c6a35a" stroke-opacity="0.6" stroke-width="1.6"/>
+    <path d="M-22 -16 L22 -16 M-22 -5 L22 -5 M-22 6 L22 6 M-22 17 L22 17" stroke="#c98a4e" stroke-opacity="0.85" stroke-width="2.4"/>
+  </g>
+  <!-- scissors silhouette -->
+  <g transform="translate(650,520) rotate(-24)" stroke="#c6a35a" stroke-opacity="0.75" fill="none" stroke-width="2">
+    <circle cx="-30" cy="26" r="12"/>
+    <circle cx="-30" cy="-2" r="12"/>
+    <path d="M-20 20 L58 -4 M-20 4 L58 26"/>
+  </g>
+  <rect x="24" y="24" width="752" height="592" fill="none" stroke="#c6a35a" stroke-opacity="0.25"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640">
+  <defs>
+    <linearGradient id="pl-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#191510"/>
+      <stop offset="70%" stop-color="#0f0c08"/>
+      <stop offset="100%" stop-color="#0b0806"/>
+    </linearGradient>
+    <linearGradient id="pl-au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9a7c40"/>
+      <stop offset="50%" stop-color="#e3c07f"/>
+      <stop offset="100%" stop-color="#9a7c40"/>
+    </linearGradient>
+    <radialGradient id="pl-sun" cx="50%" cy="38%" r="30%">
+      <stop offset="0%" stop-color="#e3c07f" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#e3c07f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="640" fill="url(#pl-bg)"/>
+  <circle cx="400" cy="244" r="170" fill="url(#pl-sun)"/>
+  <!-- grand arch -->
+  <path d="M190 560 L190 300 C190 165 280 80 400 56 C520 80 610 165 610 300 L610 560"
+        fill="#0d0a07" stroke="url(#pl-au)" stroke-width="3"/>
+  <path d="M212 560 L212 306 C212 180 295 100 400 78 C505 100 588 180 588 306 L588 560"
+        fill="none" stroke="#c6a35a" stroke-opacity="0.4" stroke-width="1.4"/>
+  <!-- lattice inside arch -->
+  <g stroke="#c6a35a" stroke-opacity="0.35" stroke-width="1.1">
+    <path d="M400 92 L400 560"/>
+    <path d="M306 132 L306 560 M494 132 L494 560"/>
+    <path d="M240 240 L560 240 M226 330 L574 330 M218 420 L582 420 M214 500 L586 500"/>
+    <path d="M258 132 C300 190 500 190 542 132" fill="none"/>
+  </g>
+  <!-- star lantern -->
+  <g transform="translate(400,200)">
+    <path d="M0 -44 L12 -14 L44 -10 L20 10 L28 42 L0 24 L-28 42 L-20 10 L-44 -10 L-12 -14 Z"
+          fill="#14100a" stroke="url(#pl-au)" stroke-width="2"/>
+    <circle r="6" fill="#e3c07f"/>
+    <path d="M0 -66 L0 -44" stroke="#e3c07f" stroke-width="1.6"/>
+  </g>
+  <!-- side minaret towers -->
+  <g stroke="url(#pl-au)" stroke-width="2" fill="#0d0a07">
+    <path d="M96 560 L96 260 L74 236 L118 236 L96 260"/>
+    <path d="M96 236 L96 208 M84 222 L108 222" stroke-width="1.4"/>
+    <path d="M704 560 L704 260 L682 236 L726 236 L704 260"/>
+    <path d="M704 236 L704 208 M692 222 L716 222" stroke-width="1.4"/>
+  </g>
+  <!-- floor -->
+  <line x1="60" y1="560" x2="740" y2="560" stroke="url(#pl-au)" stroke-width="2.4"/>
+  <g stroke="#c6a35a" stroke-opacity="0.28" stroke-width="1">
+    <path d="M120 590 L680 590 M180 618 L620 618"/>
+  </g>
+  <rect x="24" y="24" width="752" height="592" fill="none" stroke="#c6a35a" stroke-opacity="0.25"/>
+</svg>
